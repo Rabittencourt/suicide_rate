@@ -1,0 +1,21 @@
+# Ignorar o ambiente virtual
+venv/
+
+# Ignorar arquivos de logs e temporários
+*.log
+*.tmp
+*.temp
+
+# Ignorar notebooks de teste
+teste.ipynb
+
+# Ignorar metadados de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar arquivos e pastas desnecessários
+*.pyc
+__pycache__/
+
+# Manter a pasta dataset no repositório
+# Se você quiser ignorar arquivos específicos dentro dela, descomente a linha abaixo:
+# dataset/*.tmp  # Exemplo para ignorar arquivos temporários na pasta dataset
